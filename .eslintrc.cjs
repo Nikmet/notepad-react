@@ -10,5 +10,6 @@ module.exports = {
         semi: ["error", "always", { omitLastInOneLineBlock: false }],
         "comma-dangle": ["error", "never"],
         "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
-    },
+        "react/prop-types": [0]
+    }
 };
