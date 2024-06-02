@@ -3,7 +3,6 @@ import JournalItem from "../JournalItem/JournalItem";
 import "./JournalList.css";
 
 function JournalList({ items }) {
-    console.log(items);
     if (items.length === 0) {
         return <p>Записей пока нет</p>;
     }
