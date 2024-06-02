@@ -6,6 +6,7 @@
     font-size: 16px;
     border: none;
     outline: none;
+    color: #fff;
 }
 .button:hover {
     background-color: #282692;
