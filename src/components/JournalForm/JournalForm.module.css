@@ -4,27 +4,6 @@
     gap: 30px;
 }
 
-.input-title {
-    background: none;
-    border: none;
-    font-size: 32px;
-    font-weight: 600;
-    color: #fff;
-    width: 100%;
-}
-
-.input-title::placeholder {
-    font-size: 32px;
-    font-weight: 600;
-    color: #7e7e7e;
-}
-
-.input-title:active,
-.input-title:focus {
-    outline: none;
-    border-bottom: 1px solid #7e7e7e;
-}
-
 .form-row {
     display: flex;
     align-items: center;
@@ -37,42 +16,6 @@
     min-width: 150px;
 }
 
-.input-date {
-    background: none;
-    border: none;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.input-date::-webkit-calendar-picker-indicator {
-    filter: invert(100%);
-}
-
-input[type="date"]::-webkit-datetime-edit {
-    padding: 5px;
-}
-
-.input-tag {
-    background: none;
-    border: none;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    width: 100%;
-}
-
-.input-tag:active,
-.input-tag:focus {
-    outline: none;
-    border-bottom: 1px solid #7e7e7e;
-}
-
-.input-tag::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-    color: #7e7e7e;
-}
 
 .input-text {
     background: none;
