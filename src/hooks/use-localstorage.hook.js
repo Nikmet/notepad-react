@@ -11,7 +11,7 @@ export function useLocalStorage(key) {
     }, [setData, key]);
 
     const saveData = newData => {
-        localStorage.setItem(key, JSON.stringify(data));
+        localStorage.setItem(key, JSON.stringify(newData));
         setData(newData);
     };
 
