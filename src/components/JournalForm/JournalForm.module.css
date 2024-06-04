@@ -16,7 +16,6 @@
     min-width: 150px;
 }
 
-
 .input-text {
     background: none;
     border: none;
@@ -38,6 +37,17 @@
     font-size: 14px;
     font-weight: 600;
     color: #7e7e7e;
+}
+
+.delete {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.delete:hover {
+    opacity: 0.8;
 }
 
 .invalid {

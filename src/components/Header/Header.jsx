@@ -1,7 +1,13 @@
-import styles from "./Header.module.css";
+import SelectUser from "../SelectUser/SelectUser";
+import Logo from "../Logo/Logo";
 
 function Header() {
-    return <img className={styles.logo} src="./logo.svg" alt="logo" />;
+    return (
+        <>
+            <Logo image={"./logo.svg"} />
+            <SelectUser />
+        </>
+    );
 }
 
 export default Header;
